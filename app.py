@@ -7,7 +7,7 @@ from groq import Groq
 
 
 st.set_page_config(page_title="Riesgo actuarial-Norma Salinas", layout="centered")
-st.title("Predicción de riesgo actuarial")
+st.title("Predicción de riesgo actuarial-Norma Salinas")
 
 
 @st.cache_resource
