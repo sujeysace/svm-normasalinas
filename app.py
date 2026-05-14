@@ -8,7 +8,7 @@ from groq import Groq
 
 st.set_page_config(page_title="Riesgo actuarial-Norma Salinas", layout="centered")
 st.title("Predicción de riesgo actuarial-Norma Salinas")
-st.image("https://www.cantabriaeconomica.com/wp-content/uploads/2023/09/img_aa3bba9c1ac574bca7a086038185c856.jpg")
+st.image("https://www.cantabriaeconomica.com/wp-content/uploads/2023/09/img_aa3bba9c1ac574bca7a086038185c856.jpg",width=200)
 
 @st.cache_resource
 def cargar_modelo():
